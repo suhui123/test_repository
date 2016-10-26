@@ -29,14 +29,4 @@ if __name__ == '__main__':
     runner.run(suite)
 
 
-if __name__ == '__main__':
-
-    # 定义组装测试套件"
-    suite = unittest.TestSuite()
-    #组装测试套件
-    suite.addTest(SmileTaskTest("test_add"))
-
-    #####执行测试套件####
-    runner=unittest.TextTestRunner()
-    runner.run(suite)
 
